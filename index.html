@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"
+        >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/5.15.1/css/all.min.css">
+    <title>CHAINSAW_MAN</title>
+</head>
+
+<body>
+    <!-- Corps de la page -->
+
+    <!-- HEADER Titre de la page -->
+    <header class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Chainsaw man</h1>
+    </header>
+    <!-- MENU PRINCIPAL -->
+    <!-- HEADER Titre de la page -->
+    <header>
+        <h1>CHAINSAW MAN</h1>
+    </header>
+    <!-- MENU PRINCIPAL -->
+    <nav><a href="#">Accueil</a> - <a href="#">Personnages</a> - <a href="#">Diffusion</a>
+
+        </ul>
+        </div>
+    </nav>
+
+
+
+
+    <!-- ZONE PRINCIPALE -->
+    <div class="container-fluid" style="margin-top:30px;">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>introduction</h2>
+                <p>L'histoire se déroule dans un monde où les démons naissent des peurs humaines.
+                    Les démons sont généralement dangereux et malveillants, leur pouvoir étant
+                    proportionnel à la peur qu'ils suscitent. Cependant, les humains peuvent
+                    conclure des contrats avec eux pour utiliser leur pouvoir, et il existe des
+                    individus spécialisés dans leur chasse et leur emploi, appelés Devil Hunters.
+                    <br>
+                    Les démons sont originaires de l'Enfer et existent dans un cycle entre la Terre
+                    et l'Enfer : ils migrent vers la Terre lorsqu'ils sont tués en Enfer, et vice-versa.
+                    En Enfer habitent des démons extrêmement puissants appelés Primal Fears, qui n'ont
+                    jamais été tués. Le transit entre les plans semble être supervisé par le Hell Devil.
+                    <br>
+                    Un démon peut, dans certaines conditions, habiter le corps d'un
+                    humain mort, acquérant certains de ses souvenirs et sa personnalité ;
+                    une telle créature s'appelle un hominidémon. Les démons qui ont
+                    naturellement une forme humanoïde sont dits bienveillants envers
+                    les humains. Les événements de l'histoire se déroulent en 1997, dans une
+                    chronologie alternative où l'Union soviétique existe toujours, et de nombreux
+                    événements tels que l'Holocauste semblent avoir été oublié, sûrement dû à la mort du démon en
+                    question.
+                    <br>
+                    Denji est un jeune homme sans argent qui travaille comme Devil Hunter auprès d'un mafieux. Avec
+                    l'aide de Pochita, son chien-démon-tronçonneuse, il continue de rembourser les dettes de son père.
+                    Cependant, après avoir été trahi, il fusionne avec Pochita et devient un homme-tronçonneuse.
+                    <br>
+                    En échange, son ami lui demande de réaliser son rêve de vivre une vie simple. Grâce à ce nouveau
+                    pouvoir, Denji est recruté par le gouvernement pour rejoindre une section spéciale pour traquer les
+                    démons, notamment le Démon-Flingue, l'une des plus puissantes créatures.
+                </p>
+
+                <p>Une image : coins arrondis, qui se redimensionne</p>
+                <!--<figure>-->
+
+                <h2>Présentation</h2>
+
+                <!-- Carousel -->
+                <div id="idCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <ul class="carousel-indicators">
+                        <li data-target="#idCarousel" data-slide-to="0" class="active"></li>
+                        <h2>Exemples</h2>
+                        <li data-target="#idCarousel" data-slide-to="4"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="mx-auto d-block img-fluid" style="height:300px" src="./images/cimtière.jpg"
+                                alt="demontenebre" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block img-fluid" style="height:300px"
+                                src="./images/cimtiere2.jpg" alt="DenjiSurStele" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block img-fluid" style="height:300px"
+                                src="./images/poster1.jpg" alt="posterS1" />
+                        </div>
+                        <div class="carousel-item">
+                            <img class="mx-auto d-block img-fluid" style="height:300px" src="./images/lego-
+super-mario-pem-big__w1200.jpg" alt="Lego et jeux videos" />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#idCarousel" data-slide="prev"><span
+                            class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" href="#idCarousel" data-slide="next"><span
+                            class="carousel-control-next-icon"></span></a>
+                </div>
+                <!-- Fin Carousel -->
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fas fa-search"></i> Rechercher
+                    </div>
+                    <div class="card-body">
+                        <form name="formRechercher" action="#" method="post" onsubmit="return verification()">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="recherche" id="recherche" />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-success form-control" id="btnRecherche">
+                                    Rechercher
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Laisser un commentaire :</p>
+                    <form method="post" action="#">
+                        <label for="pseudo" class="col-sm-2 col-form-label col-form-label-sm">Pseudo:</label>
+                        <br />
+                        <div class="form-group row">
+                            <label for="colFormLabelSm"
+                                class="col-sm-2 col-form-label col-form-label-sm">Message:</label>
+                            <div class="col-sm-10">
+                                <input type="message" class="form-control form-control-sm" id="colFormLabelSm"
+                                    placeholder="Entrer votre message">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <p>Sheldon Cooper : Oublier ? Tu veux que j’oublie ? Ce cerveau n’oublie pas. Je n’ai jamais
+                        rien oublié
+                        depuis que ma mère a arrêté de m’allaiter. C’était un mardi et il pleuvait.</p>
+                    <p>JC VD : Un biscuit, ça n'a pas de spirit, c'est juste un biscuit. Mais avant c'était du lait,
+                        des
+                        oeufs. Et dans les oeufs, il y a la vie potentielle.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <footer class="jumbotron text-right" style="margin-top:10">
+        <p>&copy; Ceci est le footer </p>
+        <hr>
+        <address>Mon site Web Compagny <br> 22 av des Accacias - 83 000 Toulon</address>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+            DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</body>
+
+</html>
