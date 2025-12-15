@@ -17,19 +17,39 @@ awesome/5.15.1/css/all.min.css">
 
     <!-- HEADER Titre de la page -->
     <header class="jumbotron text-center" style="margin-bottom:0">
-        <h1>Chainsaw man</h1>
+
     </header>
     <!-- MENU PRINCIPAL -->
     <!-- HEADER Titre de la page -->
     <header>
-        <h1>CHAINSAW MAN</h1>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container-fluid"> <a class="navbar-brand" href="#">Chainsaw Man</a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                                    href="index.html">Accueil</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="perso.html">Personnages</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="Saisons.html">Diffusions/saisons</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <button id="toggle" class="btn btn-outline-light my-2 my-md-0"> 🌙 Dark mode</button>
+                <script src="darklight.js"></script>
+
+            </nav>
+        </header>
+
     </header>
     <!-- MENU PRINCIPAL -->
-    <nav><a href="#">Accueil</a> - <a href="#">Personnages</a> - <a href="#">Diffusion</a>
 
-        </ul>
-        </div>
-    </nav>
 
 
 
@@ -38,7 +58,8 @@ awesome/5.15.1/css/all.min.css">
     <div class="container-fluid" style="margin-top:30px;">
         <div class="row">
             <div class="col-sm-8">
-                <h2>introduction</h2>
+                <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Chainsaw man</h1>
+                <h2>Introduction</h2>
                 <p>L'histoire se déroule dans un monde où les démons naissent des peurs humaines.
                     Les démons sont généralement dangereux et malveillants, leur pouvoir étant
                     proportionnel à la peur qu'ils suscitent. Cependant, les humains peuvent
@@ -68,7 +89,6 @@ awesome/5.15.1/css/all.min.css">
                     démons, notamment le Démon-Flingue, l'une des plus puissantes créatures.
                 </p>
 
-                <p>Une image : coins arrondis, qui se redimensionne</p>
                 <!--<figure>-->
 
                 <h2>Présentation</h2>
@@ -105,60 +125,51 @@ awesome/5.15.1/css/all.min.css">
             <div class="col-sm-4">
                 <div class="card">
                     <div class="card-header">
-                        <i class="fas fa-search"></i> Rechercher
+                        <div>
+                            Documentation Wikipédia :
+                        </div>
+                        <p>Chainsaw Man (チェンソーマン, Chensō Man?, litt. « Homme à la tronçonneuse ») est un shōnen manga
+                            écrit
+                            et dessiné par Tatsuki Fujimoto. La première partie est prépubliée dans le magazine Weekly
+                            Shōnen Jump de l'éditeur Shūeisha entre décembre 2018 et décembre 2020, et la deuxième
+                            partie,
+                            débutée en juillet 2022 et toujours en cours est prépubliée dans le Shōnen Jump+ du même
+                            éditeur. La première partie est compilée en un total de onze volumes reliés. La version
+                            française a été éditée par Kazé puis est passée sous le label Crunchyroll.
+
+                            Une adaptation en anime produite par le studio MAPPA est diffusée d'octobre à décembre 2022.
+                            Un
+                            film du nom de Chainsaw Man, le film : L'Arc de Reze est sorti en septembre 2025.
+
+                            En octobre 2022, le manga avait plus de 20 millions d'exemplaires en circulation, ce qui
+                            classe
+                            l'œuvre parmi les séries de mangas les plus vendues. En 2021, Chainsaw Man remporte le 66e
+                            Prix
+                            Shōgakukan dans la catégorie shōnen, et a remporté également le Prix Harvey dans la
+                            catégorie
+                            Manga en 2021 et 2022.
+
                     </div>
-                    <div class="card-body">
-                        <form name="formRechercher" action="#" method="post" onsubmit="return verification()">
-                            <div class="form-group">
-                                <input class="form-control" type="text" name="recherche" id="recherche" />
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn-success form-control" id="btnRecherche">
-                                    Rechercher
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div>
-                    Documentation Wikipédia :
-                </div>
-                <div>
-                    <p>Chainsaw Man (チェンソーマン, Chensō Man?, litt. « Homme à la tronçonneuse ») est un shōnen manga écrit
-                        et dessiné par Tatsuki Fujimoto. La première partie est prépubliée dans le magazine Weekly
-                        Shōnen Jump de l'éditeur Shūeisha entre décembre 2018 et décembre 2020, et la deuxième partie,
-                        débutée en juillet 2022 et toujours en cours est prépubliée dans le Shōnen Jump+ du même
-                        éditeur. La première partie est compilée en un total de onze volumes reliés. La version
-                        française a été éditée par Kazé puis est passée sous le label Crunchyroll.
-
-                        Une adaptation en anime produite par le studio MAPPA est diffusée d'octobre à décembre 2022. Un
-                        film du nom de Chainsaw Man, le film : L'Arc de Reze est sorti en septembre 2025.
-
-                        En octobre 2022, le manga avait plus de 20 millions d'exemplaires en circulation, ce qui classe
-                        l'œuvre parmi les séries de mangas les plus vendues. En 2021, Chainsaw Man remporte le 66e Prix
-                        Shōgakukan dans la catégorie shōnen, et a remporté également le Prix Harvey dans la catégorie
-                        Manga en 2021 et 2022.
 
                 </div>
             </div>
-
         </div>
-    </div>
-    </div>
 
-    <footer class="jumbotron text-right" style="margin-top:10">
-        <p>&copy; Ceci est le footer </p>
-        <hr>
-        <address>Mon site Web Compagny <br> 38 Avenue Phillipe Lebon - 83 000 Toulon</address>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+
+
+
+        <footer class="jumbotron text-right" style="margin-top:10" class="jumbotron text-right" s>
+            <p>&copy; Ceci est le footer </p>
+            <hr>
+            <address>Mon site Web Compagny <br> 38 Avenue Phillipe Lebon - 83 000 Toulon</address>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
             DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
 </body>
 
-</body>
+
 
 </html>
