@@ -75,5 +75,13 @@ footer {
     .card:hover .card-img-top {
         transform: scale(1.1); 
     }
-
+.table, .table tr, .table th, .table td {
+    background-color: transparent;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
   
+html, body {
+    cursor: url("./pictures/cursor.cur"), auto;
+    
+}
